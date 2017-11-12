@@ -1,13 +1,13 @@
 # perusseslack
-Web API for Pérusse quotes which can easily be deployed to Heroku.
+Little web API for Pérusse quotes which can easily be deployed to Heroku.
 
 ## Running Locally
 
 Make sure you have [Go](http://golang.org/doc/install) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```powershell
- go get -u github.com/heroku/go-getting-started
- cd $env:GOPATH/src/github.com/heroku/go-getting-started
+ go get -u github.com/fredroger/perusseslack
+ cd $env:GOPATH/src/github.com/fredroger/perusseslack
  heroku local
 ```
 
