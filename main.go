@@ -21,5 +21,8 @@ func main() {
 	router.GET("/quote", getQuote)
 	router.POST("/quote", getQuote)
 
+	router.GET("/video", getVideoURL)
+	router.POST("/video", getVideoURL)
+
 	router.Run(":" + port)
 }

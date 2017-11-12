@@ -26,3 +26,18 @@ func getQuote(c *gin.Context) {
 
 	c.JSON(http.StatusOK, &r)
 }
+
+func getVideoURL(c *gin.Context) {
+
+	// TODO validate request is comming from slack with a token etc. etc.
+
+	// TODO get randomly a video from a file (json or whatever else...)
+	videoURL := "https://www.youtube.com/watch?v=E1aK5w7WmNs"
+
+	// Build the slack reponse and return through http
+	var r SlackResponse
+	r.ResponseType = "in_channel"
+	r.Text = videoURL
+
+	c.JSON(http.StatusOK, &r)
+}
