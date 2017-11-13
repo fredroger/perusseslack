@@ -59,6 +59,38 @@
         {
 			"name": "Matelas",
 			"text": "Matelas Crisser dans l’front"
-        }        
+        },
+        {
+			"name": "CDKC1",
+			"text": "Vous écoutez CDKC, Radio Communautaire. Un son présent, c'est les auditeurs qui sont absents."
+        },
+        {
+			"name": "CDKC2",
+			"text": "Vous écoutez CDKC, Radio Communautaire. Une radio, un auditeur. Pis encore, des fois, une radio tout court."
+        },
+        {
+			"name": "CDKC3",
+			"text": "Vous écoutez CDKC, Radio Communautaire. Une antenne alternative: Des fois à marche, des fois à marche pas."
+        },
+        {
+			"name": "CDKC4",
+			"text": "Ici Louis-Paul Fafard-Allard en remplacement de Gaston Côté-Gauthier dont les hémorroïdes étaient tellement gros qui pouvait pas s'asseoir.\nIl m'a appellé ce matin et il m'a demandé: Louis-Paul, tu penses-tu être bon pour me remplacer?\nJe lui ai dit: J'pense que j'vas être capable de te remplacer, mais j'suis pas sûr d'être bon!"
+        },
+        {
+			"name": "Patate poil",
+			"text": "Patate poil maudit cave gnagnagnagnagna"
+        },
+        {
+			"name": "Dishwasher",
+			"text": "Dishwasher, 9 moineau, 8 marmottes, 7 lapins!"
+        },
+        {
+			"name": "Concert1",
+			"text": "Samedi soir au café, bar, théatre, spectacle, cordonnerie 'Le Blaireau Puant!' le contrebassiste nain Little Boumboum Gordon!!! Little Boumboum Gordon... Il est rare de voir un contrebassiste nain......surtout s'il est derrière sa contrebasse! Les billets sont disponibles à la porte, zavé qu'à regarder dans les ordures!"
+        },
+        {
+			"name": "Concert2",
+			"text": "Samedi soir 20h au café-theâtre, bistrôt, lavoir, location de casses-tête'La Brouette Rouillée' le pianiste Tata Boutlamine... D'origine nigerio-dakaroise le pianiste Tata Boutlamine joue avec un seul doigt suite à un accident de moulin à café...Tata Boutlamine, un son unique!!! Il vous interprétera des pièces comme DO#, SOLb et bien d'autres... Tata Boutlamine! Tous les billets sont disponibles... "
+        }
 	]	
 }
