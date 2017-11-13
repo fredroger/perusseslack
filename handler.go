@@ -1,6 +1,9 @@
 package main
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"math/rand"
 	"net/http"
 	"time"
@@ -17,12 +20,38 @@ type SlackResponse struct {
 	Text         string `json:"text"`
 }
 
+// Perusse gives access to an array of quotes
+type Perusse struct {
+	Quotes []Quote `json:"quotes"`
+}
+
+// Quote represents a quote
+type Quote struct {
+	Name string `json:"name"`
+	Text string `json:"text"`
+}
+
 func getQuote(c *gin.Context) {
 
 	// TODO validate request is comming from slack with a token etc. etc.
+	quote := "Not quote found...ishhhhhh"
 
-	// TODO get randomly a quote from a file (json or whatever else...)
-	quote := "Quand ma petite Scandinave a vu que j'la regardait avec un peu d'bave, elle m'a dit: « glabedichlabediglabedichlacken, glambadibediglabedichwetten, glabedichlabegrodibotchiklagen, dabodjekadebotchibotchikouine ». Ça voulait dire : « Voudrais-tu m'aider à visser ma chaise Ikéa »."
+	file, err := ioutil.ReadFile("./perusse.json")
+	if err == nil {
+		var perusse Perusse
+		json.Unmarshal(file, &perusse)
+
+		// Pick a random number between 0 and maxResults
+		s1 := rand.NewSource(time.Now().UnixNano())
+		r1 := rand.New(s1)
+
+		randomIndex := r1.Intn(len(perusse.Quotes))
+
+		quote = perusse.Quotes[randomIndex].Text
+
+	} else {
+		fmt.Printf("File error: %v\n", err)
+	}
 
 	// Build the slack reponse and return through http
 	var r SlackResponse
