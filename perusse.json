@@ -22,7 +22,7 @@
         },
         {
 			"name": "Clémentines",
-			"text": "HEIN, t'aimes pas ça les clémentines?"
+			"text": "HEIN, t'aimes pas ça les clémentines? HAAAAAEEEENNN"
         },
         {
 			"name": "Chauve-souris",
@@ -45,7 +45,7 @@
 			"text": "Clément Bisson le chanteur, Clément Bisson le peintre, Clément Bisson le professeur, Clément Bisson le niaiseuuuuux!"
         },
         {
-			"name": "Skiddo",
+			"name": "Skidoo",
 			"text": "Un skidoo, on peut-tu laisser ça dans’ cour? Ishhhh..."
         },
         {
@@ -73,24 +73,36 @@
 			"text": "Vous écoutez CDKC, Radio Communautaire. Une antenne alternative: Des fois à marche, des fois à marche pas."
         },
         {
-			"name": "CDKC4",
-			"text": "Ici Louis-Paul Fafard-Allard en remplacement de Gaston Côté-Gauthier dont les hémorroïdes étaient tellement gros qui pouvait pas s'asseoir.\nIl m'a appellé ce matin et il m'a demandé: Louis-Paul, tu penses-tu être bon pour me remplacer?\nJe lui ai dit: J'pense que j'vas être capable de te remplacer, mais j'suis pas sûr d'être bon!"
-        },
-        {
 			"name": "Patate poil",
 			"text": "Patate poil maudit cave gnagnagnagnagna"
         },
         {
 			"name": "Dishwasher",
 			"text": "Dishwasher, 9 moineau, 8 marmottes, 7 lapins!"
-        },
-        {
-			"name": "Concert1",
-			"text": "Samedi soir au café, bar, théatre, spectacle, cordonnerie 'Le Blaireau Puant!' le contrebassiste nain Little Boumboum Gordon!!! Little Boumboum Gordon... Il est rare de voir un contrebassiste nain......surtout s'il est derrière sa contrebasse! Les billets sont disponibles à la porte, zavé qu'à regarder dans les ordures!"
-        },
+        },        
         {
 			"name": "Concert2",
-			"text": "Samedi soir 20h au café-theâtre, bistrôt, lavoir, location de casses-tête'La Brouette Rouillée' le pianiste Tata Boutlamine... D'origine nigerio-dakaroise le pianiste Tata Boutlamine joue avec un seul doigt suite à un accident de moulin à café...Tata Boutlamine, un son unique!!! Il vous interprétera des pièces comme DO#, SOLb et bien d'autres... Tata Boutlamine! Tous les billets sont disponibles... "
-        }
+			"text": "Samedi soir 20h au café-theâtre, bistrôt, lavoir, location de casses-tête 'La Brouette Rouillée' le pianiste Tata Boutlamine... D'origine nigerio-dakaroise le pianiste Tata Boutlamine joue avec un seul doigt suite à un accident de moulin à café...Tata Boutlamine, un son unique!!! Il vous interprétera des pièces comme DO#, SOLb et bien d'autres... Tata Boutlamine! Tous les billets sont disponibles..."
+        },
+        {
+			"name": "Convaincu",
+			"text": "Si chuis convaincu??? Je laisse une jambe au nounours pis j'va m'acheter un patin chez Sports Allaire!"
+        },
+        {
+			"name": "Clanches",
+			"text": "J'te gage que j'te clanche."
+        },
+        {
+			"name": "Loto",
+			"text": "Voulez vous un billet de loto, 4 millions?\nNah, trop cher\nMais y'a un gros lot de 2 piasses!"
+        },
+        {
+			"name": "BurgerCity",
+			"text": "Le p'tit nounours Burger City: Ramenez-le à maison, pis calissez-le aux vidanges!"
+        },
+        {
+			"name": "SnackBar",
+			"text": "Tout l'monde au Snack-bar chez Raymond!"
+        }		
 	]	
 }
