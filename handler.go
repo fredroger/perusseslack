@@ -34,7 +34,8 @@ type Quote struct {
 func getQuote(c *gin.Context) {
 
 	// TODO validate request is comming from slack with a token etc. etc.
-	quote := "Not quote found...ishhhhhh"
+
+	quote := "No quote found...ishhhhhh"
 
 	file, err := ioutil.ReadFile("./perusse.json")
 	if err == nil {
